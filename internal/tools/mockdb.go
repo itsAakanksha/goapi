@@ -6,7 +6,7 @@ import (
 
 type mockDB struct{}
 
-var mockLoginDetails = map[string]LoginDetails{
+var mockLoginDetails = map[string] LoginDetails{
 	"alex": {
 		AuthToken: "123ABC",
 		Username:  "alex",
