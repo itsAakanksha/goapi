@@ -1,3 +1,9 @@
+package tools
+
+import (
+	log "github.com/sirupsen/logrus"
+)
+
 type loginDetails struct {
 	AuthToken string
 	Username string

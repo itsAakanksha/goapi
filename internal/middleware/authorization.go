@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"errors",
+	"errors"
 	"net/http"
 
 	"github.com/itsAakanksha/goapi/api"
